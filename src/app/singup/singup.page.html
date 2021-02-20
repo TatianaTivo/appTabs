@@ -1,0 +1,41 @@
+<ion-header>
+  <ion-toolbar color="success">
+    <ion-title>singup</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-item>
+    <ion-label position="floating">Nome Completo</ion-label>
+    <ion-input></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label position="floating">Digite Seu Numero Do SUS</ion-label>
+    <ion-input ></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label position="floating">Digete seu CPF</ion-label>
+    <ion-input ></ion-input>
+  </ion-item>
+
+  <ion-list>
+    <ion-radio-group value="biff">
+        <ion-list-header>
+        <ion-label>Quem esta se cadastrando?</ion-label>
+      </ion-list-header>
+
+      <ion-item>
+        <ion-label>Agente da Saúde</ion-label>
+        <ion-radio slot="start" value="biff"></ion-radio>
+      </ion-item>
+
+      <ion-item>
+        <ion-label>Paciente</ion-label>
+        <ion-radio slot="start" value="buford"></ion-radio>
+     </ion-item>
+   </ion-radio-group>
+  </ion-list>
+
+  <ion-button expand="block" color="primary">Cadastrar</ion-button>
+
+</ion-content>
